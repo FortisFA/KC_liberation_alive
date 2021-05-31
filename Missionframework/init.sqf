@@ -55,3 +55,7 @@ if (_doggo) then {
 		hint("Units active: "+str(count(_UnitsIngame)));
 	};
 };
+
+//Exec Vcom AI function
+[] execVM "Vcom\VcomInit.sqf";
+//End of Vcom commands
